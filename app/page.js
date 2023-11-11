@@ -5,9 +5,6 @@ import { LoginSocialFacebook } from "reactjs-social-login";
 import { FacebookLoginButton } from "react-social-login-buttons";
 import Header from "@/components/Header";
 import LeftSideBar from "@/components/LeftSideBar";
-// import Stories from "@/components/Stories";
-// import RightSideBar from "@/components/RightSideBar";
-// import CreatePost from "@/components/CreatePost";
 
 export default function Home() {
   const [profile, setProfile] = useState(null);
@@ -58,7 +55,7 @@ export default function Home() {
             </form>
           </div>
         </div>
-      </section>    
+      </section>
     </>
   );
 }
