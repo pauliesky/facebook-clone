@@ -3,12 +3,12 @@ import Image from "next/image";
 import { useState } from "react";
 import { LoginSocialFacebook } from "reactjs-social-login";
 import { FacebookLoginButton } from "react-social-login-buttons";
-import Header from "@/components/Header";
-import LeftSideBar from "@/components/LeftSideBar";
+import Header from "/app/components/Header";
+import LeftSideBar from "/app/components/LeftSideBar";
 
 export default function Home() {
   const [profile, setProfile] = useState(null);
-  const [dashboard, setDashboard] = useState(false);
+  // const [dashboard, setDashboard] = useState(false);
 
   const openDashboardHandler = () => {
     setDashboard(false);
@@ -45,13 +45,13 @@ export default function Home() {
               >
                 <FacebookLoginButton />
               </LoginSocialFacebook>
-
+{/* 
               {dashboard && (
                 <div>
                   <Header profile={profile} />
                   <LeftSideBar profile={profile} />
                 </div>
-              )}
+              )} */}
             </form>
           </div>
         </div>

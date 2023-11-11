@@ -1,5 +1,5 @@
 import React from "react";
-import facebook from "../public/assets/facebook1.png";
+import facebook from "/public/assets/facebook1.png";
 import Image from "next/image";
 
 import {
@@ -15,6 +15,7 @@ const Header = ({ profile }) => {
       <section className="flex justify-between items-center p-2  border  border-y-1 border-[#dddfe2] ">
         <div className="flex ml-2 rounded-full items-center  gap-2">
           <div>
+            <Image src={facebook} width={40} height={40} layout="fixed" />
             {/* <Image src={profile.picture.data.url} width={40} height={40} layout="fixed" /> */}
           </div>
           <div className="flex p-3 rounded-full bg-gray-100">
