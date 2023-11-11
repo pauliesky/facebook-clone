@@ -1,5 +1,5 @@
 import React from "react";
-import facebook from "/public/assets/facebook1.png";
+import facebook from "/public/pictures/facebook1.png";
 import Image from "next/image";
 
 import {
