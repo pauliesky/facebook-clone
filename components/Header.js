@@ -1,5 +1,5 @@
 import React from "react";
-import facebook from "../public/pictures/facebook1.png";
+import facebook from "../public/assets/facebook1.png";
 import Image from "next/image";
 
 import {
@@ -9,7 +9,7 @@ import {
   shoppingCartIcon,
 } from "@heroicons/react/outline";
 
-const Header = ({profile}) => {
+const Header = ({ profile }) => {
   return (
     <>
       <section className="flex justify-between items-center p-2  border  border-y-1 border-[#dddfe2] ">
@@ -104,7 +104,7 @@ const Header = ({profile}) => {
           </svg>
         </div>
 
-        <div className="flex gap-4"  >
+        <div className="flex gap-4">
           <div className="rounded-full p-5  bg-gray-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
